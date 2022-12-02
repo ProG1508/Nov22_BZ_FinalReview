@@ -1,0 +1,10 @@
+#!/bin/bash
+
+outcome=$((RANDOM%2))
+
+if [ $outcome -eq 0 ]
+then
+	echo "Head"
+else
+	echo "Tail"
+fi
